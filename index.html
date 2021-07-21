@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="style.css">
+    <title>Useless Things!!</title>
+</head>
+
+<body class="bg-light">
+
+    <!-- Home -->
+
+    <header id="home">
+        <section class="container-fluid bg-dark text-light p-5 text-center">
+            <h1>Useless Things</h1>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8"><p>This is an useless web application. It'll just give you some random usernames and some random activity which
+                    won't help you at all. This web application is made for them who thinks themselves as useless.</p></div>
+                <div class="col-2"></div>
+            </div>
+        </section>
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 col-12 d-flex justify-content-center">
+                    <div class="bg-primary my-2 w-75 p-3 d-flex justify-content-center rounded">
+                        <button id="name-btn" class="btn btn-primary shadow-lg w-100">
+                            <h2>Random Name</h2>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 d-flex justify-content-center">
+                    <div class="bg-success p-3 my-2 w-75 d-flex justify-content-center rounded">
+                        <button id="activity-btn" class="btn btn-success shadow-lg w-100">
+                            <h2>Random Activity</h2>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Rnadom Name -->
+
+    <main id="random-name">
+        <section class="container-fluid bg-primary text-light p-5 text-center">
+            <h1>Random Name</h1>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8"><p>Here we'll give you random names every time you click the button "Generate Name". If you find any arabic name you can skip that by clicking on that button again.</p></div>
+                <div class="col-2"></div>
+            </div>
+        </section>
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center mb-5">
+                    <div style="width: 600px;" class="shadow-lg bg-light text-center rounded">
+                        <h2 class="p-2" id="name-box">Click below button!!</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <div class="bg-primary p-3 my-2 d-flex justify-content-center rounded-circle" style="width: 200px; height: 200px;">
+                        <button id="gen-name" class="btn btn-primary shadow-lg rounded-circle">
+                            <h2>Generate Name</h2>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Random Activity -->
+
+    <main id="random-activity">
+        <section class="container-fluid bg-success text-light p-5 text-center">
+            <h1>Random Activity</h1>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8"><p>Here we will generate a random activity for you for clicking on "Generate Activity" button. We know all of you will ignore those activity but it's still here for you!</p></div>
+                <div class="col-2"></div>
+            </div>
+        </section>
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center mb-5">
+                    <div style="width: 800px;" class="shadow-lg bg-light text-center rounded">
+                        <h2 class="p-2" id="activity-box">Click below button!!</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <div class="bg-success p-3 my-2 d-flex justify-content-center rounded-circle" style="width: 200px; height: 200px;">
+                        <button id="gen-activity" class="btn btn-success shadow-lg rounded-circle">
+                            <h2>Generate Activity</h2>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
